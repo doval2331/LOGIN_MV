@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: beige;
+}
+
+.contenedor {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input, form select {
+  width: 15rem;
+  margin: 0.25rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+form .radio-tipo {
+  margin: 0.5rem 0;
+}
+
+form input[type="radio"] {
+  cursor: pointer;
+  width: min-content;
+  margin: 0;
+  padding: 0;
+}
+
+.select-dependencia {
+  text-align: center;
+}
+
+form select {
+  width: 25rem;
+}
+
+form input[type="submit"] {
+  margin: 1rem 0;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+  transition: all 250ms ease;
+  border: 1px solid black;
+  background-color: lightgreen;
+}
+
+.contenedor p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.main-curso {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.main-curso h2 {
+  font-size: 2rem;
+}
+
+.cat-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  background: rgb(0, 105, 62);
+  background: linear-gradient(90deg, rgba(0, 105, 62, 0.4990371148459384) 0%, rgba(23, 177, 105, 0.5018382352941176) 35%, rgba(50, 222, 132, 0.4962359943977591) 100%);
+  border-radius: 1rem;
+}
+
+.cat-top>* {
+  padding: 2rem;
+}
+
+.cat-top-texto {
+  text-align: start;
+  padding-bottom: 4rem;
+}
+
+.cat-top-texto h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+
